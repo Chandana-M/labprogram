@@ -1,0 +1,45 @@
+<html>
+<head>
+
+<script>
+
+var load,font=0;
+function start()
+{
+load=window.setInterval("inc()",100);
+}
+
+function inc()
+{
+font=font+1;
+display.innerHTML="TEXT GROWING : "+font+"pt";
+display.style.fontSize=font+"pt";
+if(font==50){
+window.clearTimeout(load);
+load=window.setInterval("decr()",100);
+}
+display.style.color="red";
+
+}
+
+function decr()
+{
+font=font-1;
+display.innerHTML="TEXT SHRINKING : "+font+"pt";
+display.style.fontSize=font+"pt";
+if(font==5){
+window.clearTimeout(load);
+load=window.setInterval("inc()",100);
+}
+display.style.color="blue";
+
+}
+
+</script>
+</head>
+<body style="background:#32c35f78;" onload="start()">
+<center>
+<p style="margin-top:250px" id="display"></p>
+</center>
+</body>
+</html>
