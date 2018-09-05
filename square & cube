@@ -1,0 +1,46 @@
+<html>
+<title>Square and cube</title>
+<style>
+table{
+color:#333;
+border:solid black;
+border-collapse:collapse;
+}
+
+th{
+background-color:orange;
+color:white;
+border:solid 1px black;
+}
+
+td{
+background-color:yellow;
+padding-bottom:10px;
+border:solid 1px green;
+text-align:center;
+width:70px;
+}
+
+
+</style>
+<body>
+<div align="center">
+	<table>
+		<tr>
+			<th>Number </th>
+			<th>Square</th>
+			<th>Cube</th>
+		</tr>
+		
+	
+	
+<script>
+		for(var n=0;n<=10;n++)
+		{
+			document.write( "<tr><td>" +n+ "</td><td>" +n*n+ "</td><td>" + n*n*n+ "</td></tr>");
+		}
+</script>
+</table>
+</div>
+	</body>
+	</html>
