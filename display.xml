@@ -1,0 +1,51 @@
+//xml code//
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<students>
+	<student>
+		<usn>4VV15CS017</usn>
+		<name>Chandana</name>
+		<branch>CSE</branch>
+		<year>2018</year>
+		<email>abc@gmail.com</email>
+	</student>
+	
+	<student>
+		<usn>4VV15CS017</usn>
+		<name>Chandana</name>
+		<branch>CSE</branch>
+		<year>2018</year>
+		<email>abc@gmail.com</email>
+	</student>
+	
+	<student>
+		<usn>4VV15CS017</usn>
+		<name>Chandana</name>
+		<branch>CSE</branch>
+		<year>2018</year>
+		<email>abc@gmail.com</email>
+	</student>
+</students>
+
+
+
+
+
+//css file//
+students,student{
+display:block; margin:10px; background-color:gray; text-align:center;
+}
+usn{
+	color:navy;text-align:center;display:block;
+}
+name{
+	color:white;text-align:center;display:block;
+}
+branch{
+	color:red;text-align:center;display:block;
+}
+year{
+	color:green;text-align:center;display:block;
+}
+
